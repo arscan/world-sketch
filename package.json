@@ -1,0 +1,20 @@
+{
+  "name": "world-sketch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "color": "^2.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
+    "three": "^0.87.1",
+    "three-obj-loader": "^1.1.2",
+    "tween.js": "^16.6.0"
+  },
+  "scripts": {
+    "start": "budo lib/index.js --live -- -t [ babelify --presets [ env ] ]"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0"
+  }
+}

@@ -1,0 +1,16 @@
+#render {
+  position: absolute;
+  top: -30px;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  width: 1920px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  font-size: 80px;
+  z-index:5;
+  text-align: center;
+}
+
