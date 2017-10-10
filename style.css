@@ -14,3 +14,66 @@
   text-align: center;
 }
 
+.counter {
+  font-size: 20px; 
+  color: #777;
+
+}
+
+.colors {
+
+  position: absolute;
+  font-size: 30px;
+  top: 100px;
+  left:100px;
+  z-index:10;
+
+}
+
+.birth {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: #ff70e2;
+
+}
+
+.death {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: #1e90ff;
+
+}
+
+.condition-onset {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: #e32434;
+
+}
+
+.condition-abatement {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: #607d14 ;
+
+}
+
+.encounter {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: #336699;
+
+}
+
+.procedure {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: #f1a811;
+
+}
