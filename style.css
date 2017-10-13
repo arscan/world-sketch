@@ -4,6 +4,7 @@
 }
 
 .title {
+  color: #aaa;
   font-family: 'Roboto', sans-serif;
   width: 1920px;
   position: absolute;
@@ -22,6 +23,7 @@
 
 .colors {
 
+  color: #aaa;
   position: absolute;
   font-size: 30px;
   top: 100px;
