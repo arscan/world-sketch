@@ -7,14 +7,43 @@
   </head>
   <body>
     <div class="title">Synthetic USA</div>
-    <div class="colors">
-      <div><span class="birth"></span> Birth <span class='counter' id='birth-counter'></span></div>
-      <div><span class="death"></span> Death <span class='counter' id='death-counter'></span></div>
-      <div><span class="condition-onset"></span> Condition Onset <span class='counter' id='condition-onset-counter'></span></div>
-      <div><span class="condition-abatement"></span> Condition Abatement <span class='counter' id='condition-abatement-counter'></span></div>
-      <div><span class="procedure"></span> Procedure <span class='counter' id='procedure-counter'></span></div>
-      <div><span class="encounter"></span> Encounter <span class='counter' id='encounter-counter'></span></div>
+    <div class="time" id="time">October 13, 2017 5:18PM ET</div>
+    <div class="left-column">
+      <div class="panel" id="colors">
+        <div><span class="birth"></span> Birth <span class='counter' id='birth-counter'></span></div>
+        <div><span class="death"></span> Death <span class='counter' id='death-counter'></span></div>
+        <div><span class="condition-onset"></span> Condition Onset <span class='counter' id='condition-onset-counter'></span></div>
+        <div><span class="condition-abatement"></span> Condition Abatement <span class='counter' id='condition-abatement-counter'></span></div>
+        <div><span class="procedure"></span> Procedure <span class='counter' id='procedure-counter'></span></div>
+        <div><span class="encounter"></span> Encounter <span class='counter' id='encounter-counter'></span></div>
+      </div>
+
+      <div class="panel">
+        <br> <br> <br>
+        another panel!
+        <br> <br> <br>
+      </div>
+
+      <div class="panel">
+        <br> <br> <br>
+        another panel!
+        <br> <br> <br>
+      </div>
+
+      <div class="panel">
+        <br> <br> <br>
+        another panel!
+        <br> <br> <br>
+      </div>
+
     </div>
+    <div class="right-column">
+      <div class="population">
+        Population: <span id="population-count">345,345,212<span>
+      </div>
+    </div>
+
+
     <canvas id="render" />
     <script src="index.js"></script>
   </body>
