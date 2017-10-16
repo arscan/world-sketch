@@ -23,7 +23,9 @@
       </div>
 
       <div class="panel">
-        Set to simulate <strong><span id="eps-count">0</span></strong> events per second.  I'd guess <a href="?eps=150">150 events per second</a> is probably a good estimate for
+        Set to simulate <strong><span id="eps-count">0</span></strong> events per second.  
+        
+        We may need to show anywhere between <a href="?eps=5">5 events per second</a> and <a href="?eps=100">100 events per second</a> under
         full load.  If no events show up, do a hard refresh on <a href="http://synthea-stream.robscanlon.com">the stream page</a> to clear
         the streaming source's domain with our firewall.
       </div>
@@ -35,6 +37,13 @@
     <div class="right-column">
       <div class="population">
         Population: <span id="population-count">345,345,212<span>
+      </div>
+      <div class="population">
+        Pause / .5x / 1x / 2x / 10x 
+      </div>
+      <div class="population">
+        <a href="" id="map-view">map</a>
+        <a href="" id="people-view">people</a>
       </div>
     </div>
 
